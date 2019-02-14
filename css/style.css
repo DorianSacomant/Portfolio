@@ -65,10 +65,10 @@ body {
 	background-size: 100%;*/
     margin-top: 1%;
 	background-attachment: fixed;
-	-webkit-animation: Neon 2s forwards 4s;
-    -moz-animation: Neon 2s forwards 4s;
-    -o-animation: Neon 2s forwards 4s;
-    animation: Neon 2s forwards 4s;
+	-webkit-animation: Neon 3s forwards 4s;
+    -moz-animation: Neon 3s forwards 4s;
+    -o-animation: Neon 3s forwards 4s;
+    animation: Neon 3s forwards 4s;
 }
 
 @-webkit-keyframes Neon {
@@ -225,12 +225,12 @@ body {
 }
 
 @-webkit-keyframes LoaderCircle1 {
-    0% {width: 0%; -webkit-transform: rotate(0deg);;}
+    0% {width: 0%; -webkit-transform: rotate(0deg);}
     10% {width: 8%;}
     30% {width: 5%;}
     55% {width: 6%;}
     80% {width: 5%;}
-    100% {width: 0%; -webkit-transform: rotate(359deg);}
+    100% {width: 0%; -webkit-transform: rotate(-100deg);}
 }
 
 @-moz-keyframes LoaderCircle1 {
@@ -239,7 +239,7 @@ body {
     30% {width: 5%;}
     55% {width: 6%;}
     80% {width: 5%;}
-    100% {width: 0%; -moz-transform: rotate(359deg);}
+    100% {width: 0%; -moz-transform: rotate(-100deg);}
 }
 
 @-o-keyframes LoaderCircle1 {
@@ -248,164 +248,166 @@ body {
     30% {width: 5%;}
     55% {width: 6%;}
     80% {width: 5%;}
-    100% {width: 0%; -o-transform: rotate(359deg);}
+    100% {width: 0%; -o-transform: rotate(-100deg);}
 }
 
+/*@-ms-transform: rotate(45deg);*/
+
 @keyframes LoaderCircle1 {
-    0% {width: 0%; -ms-transform: rotate(0deg);}
+    0% {width: 0%; transform:rotate(0deg);}
     10% {width: 8%;}
     30% {width: 5%;}
     55% {width: 6%;}
     80% {width: 5%;}
-    100% {width: 0%; -ms-transform: rotate(359deg);}
+    100% {width: 0%; transform:rotate(-100deg);}
 }
 
 
 @-webkit-keyframes LoaderCircle2 {
-    0% {width: 0%;}
+    0% {width: 0%; -webkit-transform: rotate(0deg);}
     12% {width: 12%;}
     32% {width: 8%;}
     58% {width: 9%;}
     83% {width: 8%;}
-    100% {width: 0%;}
+    100% {width: 0%; -webkit-transform: rotate(-100deg);}
 }
 
 @-moz-keyframes LoaderCircle2 {
-    0% {width: 0%;}
+    0% {width: 0%; -moz-transform: rotate(0deg);}
     12% {width: 12%;}
     32% {width: 8%;}
     58% {width: 9%;}
     83% {width: 8%;}
-    100% {width: 0%;}
+    100% {width: 0%; -moz-transform: rotate(100deg);}
 }
 
 @-o-keyframes LoaderCircle2 {
-    0% {width: 0%;}
+    0% {width: 0%; -o-transform: rotate(0deg);}
     12% {width: 12%;}
     32% {width: 8%;}
     58% {width: 9%;}
     83% {width: 8%;}
-    100% {width: 0%;}
+    100% {width: 0%; -o-transform: rotate(100deg);}
 }
 
 @keyframes LoaderCircle2 {
-    0% {width: 0%;}
+    0% {width: 0%; transform:rotate(0deg);}
     12% {width: 12%;}
     32% {width: 8%;}
     58% {width: 9%;}
     83% {width: 8%;}
-    100% {width: 0%;}
+    100% {width: 0%; transform:rotate(100deg);}
 }
 
 
 @-webkit-keyframes LoaderCircle3 {
-    0% {width: 0%;}
+    0% {width: 0%;  -webkit-transform:rotate(0deg);}
     15% {width: 30%;}
     35% {width: 24%;}
     60% {width: 27%;}
     85% {width: 24%;}
-    100% {width: 0%;}
+    100% {width: 0%; -webkit-transform:rotate(-100deg);}
 }
 
 @-moz-keyframes LoaderCircle3 {
-    0% {width: 0%;}
+    0% {width: 0%;  -moz-transform:rotate(0deg);}
     15% {width: 30%;}
     35% {width: 24%;}
     60% {width: 27%;}
     85% {width: 24%;}
-    100% {width: 0%;}
+    100% {width: 0%; -moz-transform:rotate(-100deg);}
 }
 
 @-o-keyframes LoaderCircle3 {
-    0% {width: 0%;}
+    0% {width: 0%; -o-transform:rotate(0deg);}
     15% {width: 30%;}
     35% {width: 24%;}
     60% {width: 27%;}
     85% {width: 24%;}
-    100% {width: 0%;}
+    100% {width: 0%; -o-transform:rotate(-100deg);}
 }
 
 @keyframes LoaderCircle3 {
-    0% {width: 0%;}
+    0% {width: 0%;  transform:rotate(0deg);}
     15% {width: 30%;}
     35% {width: 24%;}
     60% {width: 27%;}
     85% {width: 24%;}
-    100% {width: 0%;}
+    100% {width: 0%;  transform:rotate(-100deg);}
 }
 
 
 @-webkit-keyframes LoaderCircle4 {
-    0% {width: 0%;}
+    0% {width: 0%; -webkit-transform:rotate(180deg);}
     12% {width: 32%;}
     36% {width: 27%;}
     61% {width: 29%;}
     86% {width: 27%;}
-    100% {width: 0%;}
+    100% {width: 0%; -webkit-transform:rotate(280deg);}
 }
 
 @-moz-keyframes LoaderCircle4 {
-    0% {width: 0%;}
+    0% {width: 0%; -moz-transform:rotate(180deg);}
     12% {width: 32%;}
     36% {width: 27%;}
     61% {width: 29%;}
     86% {width: 27%;}
-    100% {width: 0%;}
+    100% {width: 0%; -moz-transform:rotate(280deg);}
 }
 
 @-o-keyframes LoaderCircle4 {
-    0% {width: 0%;}
+    0% {width: 0%; -o-transform:rotate(180deg);}
     12% {width: 32%;}
     36% {width: 27%;}
     61% {width: 29%;}
     86% {width: 27%;}
-    100% {width: 0%;}
+    100% {width: 0%; -o-transform:rotate(280deg);}
 }
 
 @keyframes LoaderCircle4 {
-    0% {width: 0%;}
+    0% {width: 0%; transform:rotate(180deg);}
     12% {width: 32%;}
     36% {width: 27%;}
     61% {width: 29%;}
     86% {width: 27%;}
-    100% {width: 0%;}
+    100% {width: 0%; transform:rotate(280deg);}
 }
 
 
 @-webkit-keyframes LoaderCircle5 {
-    0% {width: 0%;}
+    0% {width: 0%; -webkit-transform:rotate(0deg);}
     10% {width: 35%;}
     36% {width: 30%;}
     61% {width: 32%;}
     86% {width: 30%;}
-    100% {width: 0%;}
+    100% {width: 0%; -webkit-transform:rotate(-100deg);}
 }
 
 @-moz-keyframes LoaderCircle5 {
-    0% {width: 0%;}
+    0% {width: 0%; -moz-transform:rotate(0deg);}
     10% {width: 35%;}
     36% {width: 30%;}
     61% {width: 32%;}
     86% {width: 30%;}
-    100% {width: 0%;}
+    100% {width: 0%; -moz-transform:rotate(-100deg);}
 }
 
 @-o-keyframes LoaderCircle5 {
-    0% {width: 0%;}
+    0% {width: 0%; -o-transform:rotate(0deg);}
     10% {width: 35%;}
     36% {width: 30%;}
     61% {width: 32%;}
     86% {width: 30%;}
-    100% {width: 0%;}
+    100% {width: 0%; -o-transform:rotate(-100deg);}
 }
 
 @keyframes LoaderCircle5 {
-    0% {width: 0%;}
+    0% {width: 0%; transform:rotate(0deg);}
     10% {width: 35%;}
     36% {width: 30%;}
     61% {width: 32%;}
     86% {width: 30%;}
-    100% {width: 0%;}
+    100% {width: 0%; transform:rotate(-100deg);}
 }
 
 
