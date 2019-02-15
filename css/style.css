@@ -239,7 +239,8 @@ body {
     30% {width: 5%;}
     55% {width: 6%;}
     80% {width: 5%;}
-    100% {width: 0%; -webkit-transform: rotate(-100deg);}
+    90% {width: 0%;}
+    100% {width: 0%; transform:rotate(-100deg);}
 }
 
 @-moz-keyframes LoaderCircle1 {
@@ -248,7 +249,8 @@ body {
     30% {width: 5%;}
     55% {width: 6%;}
     80% {width: 5%;}
-    100% {width: 0%; -moz-transform: rotate(-100deg);}
+    90% {width: 0%;}
+    100% {width: 0%; transform:rotate(-100deg);}
 }
 
 @-o-keyframes LoaderCircle1 {
@@ -257,7 +259,8 @@ body {
     30% {width: 5%;}
     55% {width: 6%;}
     80% {width: 5%;}
-    100% {width: 0%; -o-transform: rotate(-100deg);}
+    90% {width: 0%;}
+    100% {width: 0%; transform:rotate(-100deg);}
 }
 
 @keyframes LoaderCircle1 {
@@ -266,6 +269,7 @@ body {
     30% {width: 5%;}
     55% {width: 6%;}
     80% {width: 5%;}
+    90% {width: 0%;}
     100% {width: 0%; transform:rotate(-100deg);}
 }
 
@@ -276,6 +280,7 @@ body {
     32% {width: 8%;}
     58% {width: 9%;}
     83% {width: 8%;}
+    92% {width: 0%;}
     100% {width: 0%; -webkit-transform: rotate(-100deg);}
 }
 
@@ -285,6 +290,7 @@ body {
     32% {width: 8%;}
     58% {width: 9%;}
     83% {width: 8%;}
+    92% {width: 0%;}
     100% {width: 0%; -moz-transform: rotate(100deg);}
 }
 
@@ -294,6 +300,7 @@ body {
     32% {width: 8%;}
     58% {width: 9%;}
     83% {width: 8%;}
+    92% {width: 0%;}
     100% {width: 0%; -o-transform: rotate(100deg);}
 }
 
@@ -303,6 +310,7 @@ body {
     32% {width: 8%;}
     58% {width: 9%;}
     83% {width: 8%;}
+    92% {width: 0%;}
     100% {width: 0%; transform:rotate(100deg);}
 }
 
@@ -313,6 +321,7 @@ body {
     35% {width: 23%;}
     60% {width: 27%;}
     85% {width: 23%;}
+    96% {width: 0%;}
     100% {width: 0%; -webkit-transform:rotate(-100deg);}
 }
 
@@ -322,6 +331,7 @@ body {
     35% {width: 23%;}
     60% {width: 27%;}
     85% {width: 23%;}
+    96% {width: 0%;}
     100% {width: 0%; -moz-transform:rotate(-100deg);}
 }
 
@@ -331,6 +341,7 @@ body {
     35% {width: 23%;}
     60% {width: 27%;}
     85% {width: 23%;}
+    96% {width: 0%;}
     100% {width: 0%; -o-transform:rotate(-100deg);}
 }
 
@@ -340,6 +351,7 @@ body {
     35% {width: 23%;}
     60% {width: 27%;}
     85% {width: 23%;}
+    96% {width: 0%;}
     100% {width: 0%;  transform:rotate(-100deg);}
 }
 
@@ -350,6 +362,7 @@ body {
     36% {width: 27%;}
     61% {width: 29%;}
     86% {width: 27%;}
+    98% {width: 0%;}
     100% {width: 0%; -webkit-transform:rotate(280deg);}
 }
 
@@ -359,6 +372,7 @@ body {
     36% {width: 27%;}
     61% {width: 29%;}
     86% {width: 27%;}
+    98% {width: 0%;}
     100% {width: 0%; -moz-transform:rotate(280deg);}
 }
 
@@ -368,6 +382,7 @@ body {
     36% {width: 27%;}
     61% {width: 29%;}
     86% {width: 27%;}
+    98% {width: 0%;}
     100% {width: 0%; -o-transform:rotate(280deg);}
 }
 
@@ -377,6 +392,7 @@ body {
     36% {width: 27%;}
     61% {width: 29%;}
     86% {width: 27%;}
+    98% {width: 0%;}
     100% {width: 0%; transform:rotate(280deg);}
 }
 
