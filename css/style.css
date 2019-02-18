@@ -45,6 +45,9 @@ table {
 body {
 	height: 100%;
 	background-color: #0b0c0e;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -59,6 +62,11 @@ body {
     -moz-animation: FadeIn 5s forwards 2s ease-in-out;
     -o-animation: FadeIn 5s forwards 2s ease-in-out;
     animation: FadeIn 5s forwards 2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
 }
 
 .neonanim{
@@ -67,10 +75,10 @@ body {
 	background-size: 100%;*/
     margin-top: 1%;
 	background-attachment: fixed;
-	-webkit-animation: Neon 3s forwards 4s;
-    -moz-animation: Neon 3s forwards 4s;
-    -o-animation: Neon 3s forwards 4s;
-    animation: Neon 3s forwards 4s;
+	-webkit-animation: Neon 3s forwards 3.5s;
+    -moz-animation: Neon 3s forwards 3.5s;
+    -o-animation: Neon 3s forwards 3.5s;
+    animation: Neon 3s forwards 3.5s;
 }
 
 @-webkit-keyframes Neon {
@@ -244,7 +252,7 @@ body {
     55% {width: 6%;}
     80% {width: 5%;}
     90% {width: 0%;}
-    100% {width: 0%; transform:rotate(-100deg);}
+    100% {width: 0%; -webkit-transform:rotate(-100deg);}
 }
 
 @-moz-keyframes LoaderCircle1 {
@@ -254,7 +262,7 @@ body {
     55% {width: 6%;}
     80% {width: 5%;}
     90% {width: 0%;}
-    100% {width: 0%; transform:rotate(-100deg);}
+    100% {width: 0%; -moz-transform:rotate(-100deg);}
 }
 
 @-o-keyframes LoaderCircle1 {
@@ -264,7 +272,7 @@ body {
     55% {width: 6%;}
     80% {width: 5%;}
     90% {width: 0%;}
-    100% {width: 0%; transform:rotate(-100deg);}
+    100% {width: 0%; -o-transform:rotate(-100deg);}
 }
 
 @keyframes LoaderCircle1 {
